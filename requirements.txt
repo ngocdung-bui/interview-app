@@ -1,0 +1,25 @@
+# HTTP API requests for Ollama (import requests)
+requests>=2.31.0
+
+# Scientific computing & array operations (import numpy as np)
+numpy>=1.24.0
+
+av==12.3.0
+
+# Windows PowerShell (.venv-win active)
+pip install pynput
+
+# Real-time microphone recording & audio playback (import sounddevice as sd)
+sounddevice>=0.5.1
+
+# Reading and writing WAV audio files (import soundfile as sf)
+soundfile>=0.12.1
+
+# High-performance Speech-to-Text inference (from faster_whisper import WhisperModel)
+faster-whisper>=1.0.0
+
+# Text-to-Speech Engine & Phonemizer (from kokoro import KPipeline)
+kokoro>=0.3.1
+
+# Grapheme-to-phoneme dependency required by Kokoro
+misaki>=0.1.0
